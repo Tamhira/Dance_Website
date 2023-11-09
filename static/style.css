@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin-right: 30px;
+    margin-left: 5px;
+    font-family: fantasy;
+}
+#logo img{
+    height: 55px;
+    filter: invert(1);
+}
+#navbar{
+    padding: 5px;
+    background-color: black;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: ivory;
+    padding: 5px 10px;
+    margin: 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#introSection{
+    padding-bottom: 130px;
+    color: white;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 50px;
+    align-items: center;
+}
+#introSection div.small{
+    font-size: 1.8rem;
+}
+
+#missionSection{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    
+}
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 25px 20px;
+    height: 200px;
+    background-color: rgb(243, 205, 217);
+}
+.card h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-box{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 130px;
+    /* padding: 0px 10px; */
+    margin: 13px;
+}
+.card-img img{
+    height: inherit;
+    width: 150px;
+}
+.card-content p{
+    font-size: 20px;
+}
+
+#sponsorSection{
+    height: 400px;
+}
+#sponsorSection h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+}
+#sponsors{
+    height: 150px;
+    max-width: 705px;
+    margin: 30px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 30px;
+    
+}
+
+#footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
